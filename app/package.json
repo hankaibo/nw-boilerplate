@@ -1,0 +1,23 @@
+{
+  "name": "mynw",
+  "appName": "mynw",
+  "version": "0.0.1",
+  "description": "demo",
+  "author": "hankaibo",
+  "main": "./app.html",
+  "window": {
+    "resizable": false,
+    "toolbar": false,
+    "frame": false,
+    "show": true,
+    "width": 960,
+    "height": 600,
+    "min_width": 840,
+    "min_height": 600,
+    "position": "center",
+    "icon": "/resourecs/logo.ico"
+  },
+  "nodejs": "js",
+  "js-flags": "--harmony",
+  "node-remote": "<all_urls>"
+}

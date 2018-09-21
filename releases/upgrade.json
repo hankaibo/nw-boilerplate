@@ -1,0 +1,33 @@
+{
+  "name": "mynw",
+  "appName": "mynw",
+  "version": "0.0.1",
+  "description": "demo",
+  "author": "hankaibo",
+  "main": "./app.html",
+  "window": {
+    "resizable": false,
+    "toolbar": false,
+    "frame": false,
+    "show": true,
+    "width": 960,
+    "height": 600,
+    "min_width": 840,
+    "min_height": 600,
+    "position": "center",
+    "icon": "/resourecs/logo.ico"
+  },
+  "nodejs": "js",
+  "js-flags": "--harmony",
+  "node-remote": "<all_urls>",
+  "packages": {
+    "win32": {
+      "url": "http://localhost:8080/releases/0.0.1/win32-setup/mynw-0.0.1.exe",
+      "size": 32158896
+    },
+    "win64": {
+      "url": "http://localhost:8080/releases/0.0.1/win64-setup/mynw-0.0.1.exe",
+      "size": 39004492
+    }
+  }
+}
