@@ -1,6 +1,6 @@
 {
-  "name": "mynw",
-  "appName": "mynw",
+  "name": "nw-boilerplate",
+  "appName": "nw-boilerplate",
   "version": "0.0.1",
   "description": "demo",
   "author": "hankaibo",
@@ -22,11 +22,11 @@
   "node-remote": "<all_urls>",
   "packages": {
     "win32": {
-      "url": "http://localhost:8080/releases/0.0.1/win32-setup/mynw-0.0.1.exe",
+      "url": "http://localhost:8080/releases/0.0.1/win32-setup/nw-boilerplate-0.0.1.exe",
       "size": 32158896
     },
     "win64": {
-      "url": "http://localhost:8080/releases/0.0.1/win64-setup/mynw-0.0.1.exe",
+      "url": "http://localhost:8080/releases/0.0.1/win64-setup/nw-boilerplate-0.0.1.exe",
       "size": 39004492
     }
   }

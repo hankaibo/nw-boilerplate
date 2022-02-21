@@ -1,11 +1,10 @@
 {
-  "name": "mynw",
+  "name": "nw-boilerplate",
   "main": "./app/app.html",
-  "appName": "mynw",
+  "appName": "nw-boilerplate",
   "version": "0.0.1",
   "author": "hankaibo",
   "copyright": "© 2018, hankaibo",
-  "homepage": "http://www.littleprincess.cn/",
   "description": "demo",
   "scripts": {
     "start": "node build/start.js",

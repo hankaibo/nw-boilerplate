@@ -49,8 +49,8 @@ module.exports = {
       }
     },
     upgrade: {
-      outputFile: resolve('./releases/upgrade.json'),
-      publicPath: 'http://localhost:8080/releases/',
+      outputFile: resolve('./dist/upgrade.json'),
+      publicPath: 'http://localhost:8080/dist/',
       files: [curReleasesPath]
     }
   }
